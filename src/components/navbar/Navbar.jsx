@@ -91,6 +91,7 @@ const useStyles = makeStyles({
     marginTop: 150,
     marginBottom: 150,
     boxShadow: "none",
+    minHeight: "100vh",
   },
   mobileView: {
     display: "flex",
