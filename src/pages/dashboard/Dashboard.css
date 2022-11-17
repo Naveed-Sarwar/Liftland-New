@@ -1,0 +1,207 @@
+.homepage {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.create-program-section {
+  background-color: #108C45;
+  height: 155px;
+  width: 350px;
+  color: #ffffff;
+  border: 2px solid #108C45;
+  box-shadow: 7px 9px 18px rgba(16, 140, 69, 0.3);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.create-program-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.addIcon {
+  width: 48px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+.programmazione-section {
+  width: 350px;
+  height: 155px;
+  background: rgba(217, 116, 39, 0.1);
+  border: 2px solid #D97427;
+  border-radius: 10px;
+  color: #000000;
+  padding: 0px 20px;
+}
+
+.chainIcon {
+  width: 48px;
+  height: 52px;
+  display: flex;
+  background: rgba(217, 116, 39, 0.2);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.chain-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -25px;
+}
+
+.number {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 25px;
+}
+
+.clienti-section {
+  width: 350px;
+  height: 155px;
+  border-radius: 10px;
+  color: #000000;
+  padding: 0px 25px 0px 20px;
+  background: rgba(1, 90, 242, 0.1);
+  border: 2px solid #015AF2;
+}
+
+.peopleIcon {
+  width: 48px;
+  height: 52px;
+  display: flex;
+  background: rgba(1, 90, 242, 0.2);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  justify-content: center;
+  align-items: center;
+  color: #015AF2;
+}
+
+@media screen and (max-width: 1350px) {
+  .create-program-section {
+    background-color: #108C45;
+    height: 155px;
+    width: 310px;
+    color: #ffffff;
+    border: 2px solid #108C45;
+    box-shadow: 7px 9px 18px rgba(16, 140, 69, 0.3);
+    border-radius: 10px;
+    text-align: center;
+  }
+  .programmazione-section {
+    width: 310px;
+    height: 155px;
+    background: rgba(217, 116, 39, 0.1);
+    border: 2px solid #D97427;
+    border-radius: 10px;
+    color: #000000;
+    padding: 0px 20px;
+  }
+  .clienti-section {
+    width: 310px;
+    height: 155px;
+    border-radius: 10px;
+    color: #000000;
+    padding: 0px 25px 0px 20px;
+    background: rgba(1, 90, 242, 0.1);
+    border: 2px solid #015AF2;
+  }
+  .number {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .create-program-section {
+    background-color: #108C45;
+    height: 155px;
+    width: 280px;
+    color: #ffffff;
+    border: 2px solid #108C45;
+    box-shadow: 7px 9px 18px rgba(16, 140, 69, 0.3);
+    border-radius: 10px;
+    text-align: center;
+  }
+  .programmazione-section {
+    width: 280px;
+    height: 155px;
+    background: rgba(217, 116, 39, 0.1);
+    border: 2px solid #D97427;
+    border-radius: 10px;
+    color: #000000;
+    padding: 0px 20px;
+  }
+  .clienti-section {
+    width: 280px;
+    height: 155px;
+    border-radius: 10px;
+    color: #000000;
+    padding: 0px 25px 0px 20px;
+    background: rgba(1, 90, 242, 0.1);
+    border: 2px solid #015AF2;
+  }
+  .number {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .create-program-section {
+    background-color: #108C45;
+    height: 155px;
+    width: 250px;
+    color: #ffffff;
+    border: 2px solid #108C45;
+    box-shadow: 7px 9px 18px rgba(16, 140, 69, 0.3);
+    border-radius: 10px;
+    text-align: center;
+  }
+  .programmazione-section {
+    width: 250px;
+    height: 155px;
+    background: rgba(217, 116, 39, 0.1);
+    border: 2px solid #D97427;
+    border-radius: 10px;
+    color: #000000;
+    padding: 0px 20px;
+  }
+  .clienti-section {
+    width: 250px;
+    height: 155px;
+    border-radius: 10px;
+    color: #000000;
+    padding: 0px 25px 0px 20px;
+    background: rgba(1, 90, 242, 0.1);
+    border: 2px solid #015AF2;
+  }
+  .number {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 25px;
+  }
+}/*# sourceMappingURL=Dashboard.css.map */

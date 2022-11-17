@@ -1,0 +1,116 @@
+.tab{
+  width: 100% !important;
+}
+.table-main{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    margin: 40px 0px 10px 0px;
+}
+.tableOne{
+  margin-top: 20px;
+  margin-right: 0px;
+}
+.table-main-heading{
+    font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 22px;
+ line-height: 26px;
+ display: flex;
+}
+.input-section {
+    display:flex;
+    flex-direction:row;
+    border: 1px solid  #cbcbcb;
+    border-radius: 5px;
+    padding-left: 15px;
+    height: 35px;
+    margin-top: 10px;
+  }
+  .input {
+ 
+    border:none;
+    width: 200px;
+  }
+  
+  .input:focus {
+    /* removing the input focus blue box. Put this on the form if you like. */
+    outline: none;
+  }
+  
+  .button {
+    /* Just a little styling to make it pretty */
+   
+border: none;
+background: none;
+    color: #5654C8;
+padding-top: 5px;
+padding-right: 10px;
+}
+
+
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #AEAEAE;
+
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #AEAEAE;
+  }
+
+
+  @media screen and (max-width: 600px) {
+ 
+    .table-main{
+      display: block;
+      margin: 0px 20px;
+      margin: 40px 0px 10px 0px;
+  }
+  .input-section {
+    display:block;
+    flex-direction:row;
+    border: 1px solid  #cbcbcb;
+    border-radius: 5px;
+    padding-left: 15px;
+    height: 35px;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .button {
+border: none;
+background: none;
+   color: #5654C8;
+// padding-top: 5px;
+padding-right: 10px;
+float: right;
+  }
+//   .table-main-heading{
+//     font-family: 'Roboto';
+//  font-style: normal;
+//  font-weight: 500;
+//  font-size: 22px;
+//  line-height: 26px;
+//  display: block;
+// }
+}
+
+@media screen and (max-width: 450px) {
+  .tab{
+    width: 370px !important;
+  }
+    .input{
+    height: 30px;
+  }
+  .input::placeholder{
+font-size: 12px; 
+ }
+}
+
+@media screen and (max-width: 400px) {
+  .tab{
+    width: 320px !important;
+  }
+}

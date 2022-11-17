@@ -1,38 +1,90 @@
-.App {
+.create-program-section {
+  background-color: #108C45;
+  height: 155px;
+  width: 342px;
+  color: #ffffff;
+  border: 2px solid #108C45;
+  box-shadow: 7px 9px 18px rgba(16, 140, 69, 0.3);
+  border-radius: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.create-program-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.addIcon {
+  width: 48px;
+  height: 52px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: -10px;
 }
 
-.App-link {
-  color: #61dafb;
+.programmazione-section {
+  width: 302px;
+  height: 155px;
+  background: rgba(217, 116, 39, 0.1);
+  border: 2px solid #D97427;
+  border-radius: 10px;
+  color: #000000;
+  padding: 0px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chainIcon {
+  width: 48px;
+  height: 52px;
+  display: flex;
+  background: rgba(217, 116, 39, 0.2);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  justify-content: center;
+  align-items: center;
 }
+
+.chain-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -5px;
+}
+
+.number {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 25px;
+}
+
+.clienti-section {
+  width: 297px;
+  height: 155px;
+  border-radius: 10px;
+  color: #000000;
+  padding: 0px 25px 0px 20px;
+  background: rgba(1, 90, 242, 0.1);
+  border: 2px solid #015AF2;
+}
+
+.peopleIcon {
+  width: 48px;
+  height: 52px;
+  display: flex;
+  background: rgba(1, 90, 242, 0.2);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  justify-content: center;
+  align-items: center;
+  color: #015AF2;
+}/*# sourceMappingURL=App.css.map */

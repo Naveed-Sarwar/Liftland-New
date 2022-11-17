@@ -1,0 +1,599 @@
+$CreateProgrammazioneBackground: #108C45;
+$ProgrammazioneBackground: #D97427;
+$TextColorWhite: #ffffff;
+$TextColorBlack: #000000;
+$FontFaimly: "Roboto";
+
+
+.homepage{
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.create-program-section{
+    background-color: $CreateProgrammazioneBackground;
+    height: 155px;
+    width: 350px;
+color: $TextColorWhite;
+border: 2px solid #108C45;
+box-shadow: 7px 9px 18px rgba(16, 140, 69, 0.3);
+border-radius: 10px;
+text-align: center;
+margin-right: 70px;
+}
+.create-program-text{
+    font-family: $FontFaimly;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+margin-top: 45px;
+}
+.create-program-text-program{
+    font-family: $FontFaimly;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px; 
+}
+.addIcon{
+width: 48px;
+height: 52px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: -10px;
+}
+
+.programmazione-section{
+    width: 350px;
+    height: 155px;
+    background: rgba(217, 116, 39, 0.1);
+    border: 2px solid #D97427;
+    border-radius: 10px;
+    color: $TextColorBlack;
+    padding: 0px 20px; 
+    margin-right: 70px;
+}
+.programmazione-section-mobile{
+    display: none;
+}
+.chainIcon{
+    width: 48px;
+height: 52px;
+display: flex;
+background: rgba(217, 116, 39, 0.2);
+border-radius: 10px;
+margin-top: 20px;
+margin-bottom: -10px;
+justify-content: center;
+align-items: center;
+}
+.chain-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -25px;
+}
+
+.chain-section-moible{
+    display: none;
+}
+.number{
+font-family: $FontFaimly;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 25px;
+margin-top: 30px;
+
+}
+.clienti-section{
+    width: 350px;
+    height: 155px;
+    border-radius: 10px;
+    color: $TextColorBlack;
+    padding: 0px 25px 0px 20px; 
+    background: rgba(1, 90, 242, 0.1);
+    border: 2px solid #015AF2;
+}
+.clienti-section-mobile{
+    display: none;
+}
+.peopleIcon{
+width: 48px;
+height: 52px;
+display: flex;
+background: rgba(1, 90, 242, 0.2);
+border-radius: 10px;
+margin-top: 20px;
+margin-bottom: -10px;
+justify-content: center;
+align-items: center;
+color: #015AF2;
+}
+
+.tableSection{
+    width: 100%;
+    margin: 0px 14px 0px 0px;
+}
+.create-program-section-mobile{
+    display: none;
+    background-color: $CreateProgrammazioneBackground;
+    height: 90px;
+    width: 90%;
+    color: $TextColorWhite;
+    border: 2px solid #108C45;
+    box-shadow: 7px 9px 18px rgba(16, 140, 69, 0.3);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 0px !important;
+
+}
+@media screen and (max-width: 1350px) {
+    
+    .create-program-section{
+    background-color: $CreateProgrammazioneBackground;
+    height: 155px;
+    width: 310px;
+    color: $TextColorWhite;
+    border: 2px solid #108C45;
+    box-shadow: 7px 9px 18px rgba(16, 140, 69, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 20px;
+}
+    .programmazione-section{
+        width: 310px;
+        height: 155px;
+        background: rgba(217, 116, 39, 0.1);
+        border: 2px solid #D97427;
+        border-radius: 10px;
+        color: $TextColorBlack;
+        padding: 0px 20px; 
+        margin-right: 20px;
+    }
+    .clienti-section{
+        width: 310px;
+        height: 155px;
+        border-radius: 10px;
+        color: $TextColorBlack;
+        padding: 0px 25px 0px 20px; 
+        background: rgba(1, 90, 242, 0.1);
+        border: 2px solid #015AF2;
+    }
+    .number{
+        font-family: $FontFaimly;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 25px;
+        }
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+    .create-program-section{
+    background-color: $CreateProgrammazioneBackground;
+    height: 155px;
+    width: 280px;
+    color: $TextColorWhite;
+    border: 2px solid #108C45;
+    box-shadow: 7px 9px 18px rgba(16, 140, 69, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 0px;
+}
+    .programmazione-section{
+        width: 280px;
+        height: 155px;
+        background: rgba(217, 116, 39, 0.1);
+        border: 2px solid #D97427;
+        border-radius: 10px;
+        color: $TextColorBlack;
+        padding: 0px 20px; 
+        margin-right: 0px;
+       
+    }
+    .clienti-section{
+        width: 280px;
+        height: 155px;
+        border-radius: 10px;
+        color: $TextColorBlack;
+        padding: 0px 25px 0px 20px; 
+        background: rgba(1, 90, 242, 0.1);
+        border: 2px solid #015AF2;
+    }
+    .number{
+        font-family: $FontFaimly;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 25px;
+        }
+}
+
+@media screen and (max-width: 1080px) {
+    
+    .create-program-section{
+    background-color: $CreateProgrammazioneBackground;
+    height: 155px;
+    width: 230px;
+    color: $TextColorWhite;
+    border: 2px solid #108C45;
+    box-shadow: 7px 9px 18px rgba(16, 140, 69, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 0px !important;
+}
+    .programmazione-section{
+        width: 230px;
+        height: 155px;
+        background: rgba(217, 116, 39, 0.1);
+        border: 2px solid #D97427;
+        border-radius: 10px;
+        color: $TextColorBlack;
+        padding: 0px 20px; 
+        margin-right: 0px;
+    }
+    .clienti-section{
+        width: 230px;
+        height: 155px;
+        border-radius: 10px;
+        color: $TextColorBlack;
+        padding: 0px 25px 0px 20px; 
+        background: rgba(1, 90, 242, 0.1);
+        border: 2px solid #015AF2;
+    }
+    .number{
+        font-family: $FontFaimly;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 25px;
+        }
+
+}
+
+@media screen and (max-width: 600px) {
+   
+        .create-program-section{
+            display: none;
+            background-color: $CreateProgrammazioneBackground;
+            height: 100px;
+            width: 95%;
+            color: $TextColorWhite;
+            border: 2px solid #108C45;
+            box-shadow: 7px 9px 18px rgba(16, 140, 69, 0.3);
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-left: 0px !important;
+        }
+
+        .create-program-section-mobile{
+            display: flex;
+            background-color: $CreateProgrammazioneBackground;
+            height: 90px;
+            width: 90%;
+            color: $TextColorWhite;
+            border: 2px solid #108C45;
+            box-shadow: 7px 9px 18px rgba(16, 140, 69, 0.3);
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-left: 0px !important;
+    
+        }
+        .addIcon{
+            width: 48px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            margin-left: 15px;
+            margin-right: 10px;
+            margin-top: 25px;
+            }
+            .create-program-text-program{
+                font-family: $FontFaimly;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                margin-top: 38px; 
+                margin-left: 10px;
+            }
+        .create-program-text{
+            font-family: $FontFaimly;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        }
+        .programmazione-section{
+            display: none;
+        }  
+        .programmazione-section-mobile{
+            height: 100px;
+            width: 95%;
+            background: rgba(217, 116, 39, 0.1);
+            border: 2px solid #D97427;
+            border-radius: 10px;
+            color: $TextColorBlack;
+            padding: 0px 20px; 
+            margin-top: 20px;
+            display: flex !important;
+            justify-content: space-between;
+ 
+        }
+        .chain-section-mobile{
+            display: flex;
+            justify-content: space-between;
+ 
+        }
+        .create-program-text-mobile{
+            font-family: $FontFaimly;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+display: flex;    
+justify-content: space-between; 
+margin-top: 33px; 
+margin-left: 15px;
+        }   
+            .number-mobile{
+            font-family: $FontFaimly;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 25px;   
+                    padding-top: 33px !important;
+        }
+       .clienti-section{
+        display: none;
+       }
+       .clienti-section-mobile{
+        width: 95%;
+        height: 100px;
+        border-radius: 10px;
+        color: $TextColorBlack;
+        padding: 0px 25px 0px 20px; 
+        background: rgba(1, 90, 242, 0.1);
+        border: 2px solid #015AF2;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+       }
+        .number{
+            font-family: $FontFaimly;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 25px;
+            }
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+    
+    .create-program-section{
+        display: none;
+        background-color: $CreateProgrammazioneBackground;
+        height: 90px;
+        width: 90%;
+        color: $TextColorWhite;
+        border: 2px solid #108C45;
+        box-shadow: 7px 9px 18px rgba(16, 140, 69, 0.3);
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 0px !important;
+
+    } 
+     .create-program-section-mobile{
+        display: flex;
+        background-color: $CreateProgrammazioneBackground;
+        height: 90px;
+        width: 90%;
+        color: $TextColorWhite;
+        border: 2px solid #108C45;
+        box-shadow: 7px 9px 18px rgba(16, 140, 69, 0.3);
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 0px !important;
+
+    }
+    .addIcon{
+        width: 48px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-top: 20px;
+        }
+        .create-program-text-program{
+            font-family: $FontFaimly;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            margin-top: 33px; 
+            margin-left: 10px;
+        }
+    .create-program-text{
+        font-family: $FontFaimly;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    }
+    .programmazione-section{
+        display: none;
+    }  
+    .programmazione-section-mobile{
+        height: 90px;
+        width: 90%;
+        background: rgba(217, 116, 39, 0.1);
+        border: 2px solid #D97427;
+        border-radius: 10px;
+        color: $TextColorBlack;
+        padding: 0px 20px; 
+        margin-top: 20px;
+        display: flex !important;
+        justify-content: space-between;
+
+    }
+    .chain-section-mobile{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .create-program-text-mobile{
+        font-family: $FontFaimly;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+display: flex;    
+justify-content: space-between; 
+margin-top: 33px; 
+margin-left: 15px;
+    }   
+        .number-mobile{
+        font-family: $FontFaimly;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 25px;   
+                padding-top: 33px !important;
+    }
+   .clienti-section{
+    display: none;
+   }
+   .clienti-section-mobile{
+    width: 90%;
+    height: 90px;
+    border-radius: 10px;
+    color: $TextColorBlack;
+    padding: 0px 25px 0px 20px; 
+    background: rgba(1, 90, 242, 0.1);
+    border: 2px solid #015AF2;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+   }
+    .number{
+        font-family: $FontFaimly;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 25px;
+        }
+
+}
+
+@media screen and (max-width: 350px) {
+    
+    .create-program-section{
+        display: flex;
+        background-color: $CreateProgrammazioneBackground;
+        height: 90px;
+        width: 280px;
+        color: $TextColorWhite;
+        border: 2px solid #108C45;
+        box-shadow: 7px 9px 18px rgba(16, 140, 69, 0.3);
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 0px !important;
+
+    }
+    .addIcon{
+        width: 48px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-top: 20px;
+        }
+        .create-program-text-program{
+            font-family: $FontFaimly;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            margin-top: 35px; 
+            margin-left: 5px;
+        }
+    .create-program-text{
+        font-family: $FontFaimly;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    }
+    .programmazione-section{
+        display: none;
+    }  
+    .programmazione-section-mobile{
+        height: 90px;
+        width: 280px;
+        background: rgba(217, 116, 39, 0.1);
+        border: 2px solid #D97427;
+        border-radius: 10px;
+        color: $TextColorBlack;
+        padding: 0px 20px; 
+        margin-top: 20px;
+        display: flex !important;
+        justify-content: space-between;
+
+    }
+    .chain-section-mobile{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .create-program-text-mobile{
+        font-family: $FontFaimly;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+display: flex;    
+justify-content: space-between; 
+margin-top: 33px; 
+margin-left: 15px;
+    }   
+        .number-mobile{
+        font-family: $FontFaimly;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 25px;   
+                padding-top: 33px !important;
+    }
+   .clienti-section{
+    display: none;
+   }
+   .clienti-section-mobile{
+    width: 280px;
+    height: 90px;
+    border-radius: 10px;
+    color: $TextColorBlack;
+    padding: 0px 25px 0px 20px; 
+    background: rgba(1, 90, 242, 0.1);
+    border: 2px solid #015AF2;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+   }
+  .tableSection{
+    width: 300px !important;
+    margin: 0px 14px 0px 0px;
+}
+}
